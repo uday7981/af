@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Enhanced grid background */
+.grid-background {
+    background-image:
+        linear-gradient(rgba(40, 38, 129, 0.3) 1px, transparent 1px),
+        /* Lighter grid lines */
+        linear-gradient(90deg, rgba(40, 38, 129, 0.3) 1px, transparent 1px);
+    /* Lighter grid lines */
+    background-size: 20px 20px;
+    /* Size of the grid */
+    background-color: #f0f4f8;
+    /* Softer fallback color */
+}
+
+/* Placeholder styles */
+.placeholder-black::placeholder {
+    color: #666;
+    /* Softer placeholder color */
+}
+
+/* Select styles */
+select {
+    color: #333;
+    /* Darker text color for better contrast */
+    text-align: center;
+    background-color: #fff;
+    /* White background for select */
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 4px;
+    /* Rounded corners */
+    padding: 8px;
+    /* Padding for better touch targets */
+}
+
+/* Grid pattern background */
+.bg-grid-pattern {
+    background-image:
+        linear-gradient(rgba(40, 38, 129, 0.1) 1px, transparent 1px),
+        /* Lighter grid lines */
+        linear-gradient(90deg, rgba(40, 38, 129, 0.1) 1px, transparent 1px);
+    /* Lighter grid lines */
+    background-size: 50px 50px;
+    /* Adjust size for a more spacious look */
+    background-color: #f9f9f9;
+    /* Fallback color */
+}
+
+/* Enhanced white background with shadow */
+.bg-white {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    /* Slightly stronger shadow */
+    border-radius: 8px;
+    /* Rounded corners for a softer look */
+    background-color: #ffffff;
+    /* Ensure background is white */
+    padding: 30px;
+    /* Add padding for content spacing */
+}
+
+/* Additional styles for buttons */
+button {
+    background-color: #4a90e2;
+    /* Primary button color */
+    color: white;
+    /* Text color */
+    border: none;
+    /* Remove default border */
+    border-radius: 4px;
+    /* Rounded corners */
+    padding: 10px 15px;
+    /* Padding for buttons */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+
+button:hover {
+    background-color: #357ab8;
+    /* Darker shade on hover */
+}
